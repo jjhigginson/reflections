@@ -25,3 +25,7 @@ Branches are helpful if you want to develop the current state of the project in 
 
 How do the diagrams help you visualize the branch structure?
 That seems rhetorical, but basically the diagrams help to show how each branch is related through it's parents branches. Eventually, there is a common ancestor.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+When two branches are merged, there are now two parent branches. This new branch contains all the commits from the two parents. Hence, in the diagram, there are arrows pointing from the new merged branch to each of it's parents.
