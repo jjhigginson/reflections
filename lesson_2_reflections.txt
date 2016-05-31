@@ -19,3 +19,6 @@ to compare the files in the staging area to the last commit in the repo to make 
 Also, if there a multiple files you've edited, maybe each one alone is a logical change, so add each file to the staging area and then commit.
 
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches are helpful if you want to develop the current state of the project in multiple directions, possibly creating multiple products. Branches help to keep this divergence organized.
+
