@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+When you initialize a repository using the command
+  git init
+the hidden git folder for tracking changes (called .git) is created, but no commits exist yet.
+To see this, run the command
+  git status
+It's important to initialize the repository so that changes can be tracked.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is an impermanent area between the working directory and the git repository. You add files here before you actually commit them to the git repo; if you accidentally add the wrong file, you can remove it. Once everything is squared away, then you can commit. It likely improves the quality/significance of each commit. 
