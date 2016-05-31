@@ -9,3 +9,13 @@ It's important to initialize the repository so that changes can be tracked.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area is an impermanent area between the working directory and the git repository. You add files here before you actually commit them to the git repo; if you accidentally add the wrong file, you can remove it. Once everything is squared away, then you can commit. It likely improves the quality/significance of each commit. 
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+Once you've made a logical change, add the file(s) to the staging area (using git add (filename(s)).
+Then run
+  git diff --staged
+to compare the files in the staging area to the last commit in the repo to make sure you want to commit the changes. 
+Also, if there a multiple files you've edited, maybe each one alone is a logical change, so add each file to the staging area and then commit.
+
+
