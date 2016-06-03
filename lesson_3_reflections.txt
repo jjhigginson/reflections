@@ -6,3 +6,5 @@ Why might you want to always pull changes manually rather than having Git automa
   Changes can cause conflicts. If you're in the middle of creating a new feature, it's best to chose when to pull and incorporate other people's changes so that you can deal with conflicts at times when you're features are mature.
 
   
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+  I fork is basically a clone of a repository on Github which contains a reference to the original repo. A clone is a copy of a repo from either Github or a local machine that exists on a local machine. A branch is within a repo and is often used to develop experimental features that may not make it into production; this allows for development/testing without affecting the master branch. You would choose to fork to give credit to someone's else work that you don't have write access to, and develop it in your own direction; in other words, it's a branch that is not expected to be merged.
